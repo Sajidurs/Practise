@@ -15,29 +15,6 @@
 
 
 <?php
-$akij = 10;
-
-$darbi = "Valo Poristhiti";
-
-if($akij >=2){
-    echo "Oke Cegirate Din";
-} else{
-    echo $darbi;
-
-}
-
-$createVariable = true;
-$deleteVariable = false;
-$amountVariable = 10;
-
-
-if($createVariable == false){
-    echo "Programming is Working";
-    $newVariable = 200;
-} else{
-    echo $newVariable + $amountVariable;
-}
-
 
 
 
