@@ -16,11 +16,6 @@
 
 <?php
 
-$bappiCreate = "Sajidur Rahman";
-
-echo "The name of the persistence is ". $bappiCreate. "\n";
-
-
 
 ?>
 
