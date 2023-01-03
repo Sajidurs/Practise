@@ -16,7 +16,8 @@
 
 <?php
 
-
+$colors = array("White", "Black", "Blue");
+var_dump($colors);
 ?>
 
 </body>
