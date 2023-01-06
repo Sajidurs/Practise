@@ -13,12 +13,23 @@
 </head>
 <body>
 
-
 <?php
 
-$colors = array("White", "Black", "Blue");
-var_dump($colors);
+
+$F_num = 100;
+$L_num = 100;
+
+var_dump($F_num <=> $L_num);
+
+if($F_num <=> $L_num = 1 & $F_num = $L_num){
+    echo "Life is just about Pap";
+} else {
+    echo "Allah can forgive us for that";
+}
+
 ?>
+
+
 
 </body>
 </html>
