@@ -1,8 +1,3 @@
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,17 +10,12 @@
 
 <?php
 
+$user = 
+$age = 20;
 
-$F_num = 100;
-$L_num = 100;
+($age > 18) ? "Admin" : "Guest";
 
-var_dump($F_num <=> $L_num);
-
-if($F_num <=> $L_num = 1 & $F_num = $L_num){
-    echo "Life is just about Pap";
-} else {
-    echo "Allah can forgive us for that";
-}
+var_dump($user);
 
 ?>
 
