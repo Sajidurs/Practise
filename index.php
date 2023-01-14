@@ -10,12 +10,10 @@
 
 <?php
 
-$user = 
-$age = 20;
+const Name = "Sajidur Rahman";
+$OriginalName = "Bappi";
 
-($age > 18) ? "Admin" : "Guest";
-
-var_dump($user);
+var_dump(NAME);
 
 ?>
 
