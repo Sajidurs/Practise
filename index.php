@@ -9,18 +9,18 @@
 <body>
 
 <?php
+$userName = "sajidur";
+$passWord = 1234;
 
-const Name = "Sajidur Rahman";
-$OriginalName = "Bappi";
-
-$x = 20;
-$y = 30;
-
-if ($x == 0 or $y == 30){
-    echo "Everything is good";
+if ($userName == "sajidur"){
+    if ($passWord == 124){
+        echo "Password is correct";
+    } else{
+        echo "Password is incorrect";
+    }
+} else {
+    echo "User name is incorrect";
 }
-
-
 
 
 
