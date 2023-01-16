@@ -8,30 +8,19 @@
 </head>
 <body>
 
-<?php
-$userName = "sajidur";
-$passWord = 1234;
+<form action="#">
+<select name="year" id="year">
 
-if ($userName == "sajidur"){
-    if ($passWord == 124){
-        echo "Password is correct";
-    } else{
-        echo "Password is incorrect";
+    <?php
+    $year = 2000;
+     while($year <= 2050){ ?>
+        <option value="<?php echo $year;?>"><?php echo $year;?></option>
+    <?php 
+    $year++;
     }
-} else {
-    echo "User name is incorrect";
-}
-
-
-
-
-
-
-
-
-?>
-
-
+    ?>
+</select>
+</form>
 
 </body>
 </html>
