@@ -13,7 +13,10 @@
 const Name = "Sajidur Rahman";
 $OriginalName = "Bappi";
 
-var_dump(NAME);
+var_dump($OriginalName);
+
+
+
 
 ?>
 
