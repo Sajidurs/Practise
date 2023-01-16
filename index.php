@@ -13,7 +13,18 @@
 const Name = "Sajidur Rahman";
 $OriginalName = "Bappi";
 
-var_dump($OriginalName);
+$x = 20;
+$y = 30;
+
+if ($x == 0 or $y == 30){
+    echo "Everything is good";
+}
+
+
+
+
+
+
 
 
 
