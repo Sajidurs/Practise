@@ -27,30 +27,20 @@
 </head>
 <body>
 
-<div class="container">
-<div class="row">
-<?php 
+<?php
 
-$query = 1;
+// Nested For Loop
+for($primary_list = 1; $primary_list <= 10; $primary_list++){
+  echo "Primary List: " . $primary_list . "<br>";
+  for($secondary_list = 1; $secondary_list <= 2; $secondary_list++){
+    echo "----------secondary List: " . $secondary_list . "<br>";
+  }
+}
 
-do{ 
-  $query++;
-  ?>
-  <div class="col-md-4">
-  <div class="box1">
-    <h3>Blog Title Goes Here</h3>
-    <img src="./img/post.jpg" alt="">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis eaque repellendus, aliquid, inventore sint at repellat pariatur facere libero enim unde temporibus molestias obcaecati, accusantium vitae ex veniam! Quaerat, nostrum!</p>
-  </div>
-</div>
 
-<?php 
-} while($query <= 12)
+
+
 ?>
-  
-
-</div>
-</div>
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/jquery-3.6.1.min.js"></script>
