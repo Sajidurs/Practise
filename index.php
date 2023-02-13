@@ -29,12 +29,13 @@
 
 <?php
 
-// Nested For Loop
-for($primary_list = 1; $primary_list <= 10; $primary_list++){
-  echo "Primary List: " . $primary_list . "<br>";
-  for($secondary_list = 1; $secondary_list <= 2; $secondary_list++){
-    echo "----------secondary List: " . $secondary_list . "<br>";
-  }
+$numberOne = 1;
+$numberTwo = 2;
+
+while( $numberOne < $numberTwo ){
+  echo "Everything is good";
+  $$numberOne++;
+
 }
 
 
