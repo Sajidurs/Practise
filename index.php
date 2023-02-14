@@ -28,20 +28,30 @@
 <body>
 
 <?php
+$err = "";
+if(isset($_POST['name']) && isset($_POST['email'])){
+  $name = $_POST['name'];
+  $email = $_POST['email'];
 
-$numberOne = 1;
-$numberTwo = 2;
-
-while( $numberOne < $numberTwo ){
-  echo "Everything is good";
-  $$numberOne++;
-
+  if(empty($name) && empty($email)){
+    $err = "This form is required";
+  }else{
+    echo "Thanks " . $name . " Your email address is " . $email;
+  }
 }
 
 
-
-
 ?>
+
+<div class="section_wrapper">
+  <form action="index.php" method="POST">
+    <input type="text" name="name" placeholder="Name Please"><?php echo $err;?> <br/>
+    <input type="email" name="email" placeholder="Email Please"><?php echo $err;?><br/>
+    <input type="submit" name="submit">
+  </form>
+</div>
+
+
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/jquery-3.6.1.min.js"></script>
