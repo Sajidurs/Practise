@@ -13,14 +13,23 @@ $conn = new mysqli($hostname, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Error connecting to $hostname");
-} else {
-    echo "Connection successful";
 }
 
+// PHP OOP to show data from the database
+// $sql = "SELECT * FROM test";
+// $result = $conn->query($sql);
+// if ($result->num_rows > 0) {
+//     $data = $result->fetch_assoc();
+
+//     echo $data['name'];
+// }
+
+// PHP Procedure method to show data from the server
 $sql = "SELECT * FROM test";
-$result = $conn->query($sql);
-if ($result->num_rows > 0) {
-    $data = $result->fetch_assoc();
+$result = mysqli_query($conn, $sql);
 
-    echo $data['name'];
-}
+    if(mysqli_num_rows($result) > 0){
+        $data = mysqli_fetch_array($result);
+        echo $data['name'];
+        echo $data['id'];
+    }
