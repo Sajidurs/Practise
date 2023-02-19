@@ -20,9 +20,18 @@
 
 $(document).ready(function(){
   $('.button1').click(function(){
-    $.get('load.html', function(data, status){
+
+
+    $.post('post.php',{
+      name : "Sajidur Rahman",
+      job  : "Web Developer" 
+    }, function(data, status){
       $('#pera').html(data);
+
+      // Alert
       alert(status);
+
     });
+
   });
 });
