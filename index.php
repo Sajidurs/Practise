@@ -24,37 +24,22 @@
   <link rel="stylesheet" href="css/responsive-testimonials.css" />
   <link rel="stylesheet" href="css/main.css" />
   <link rel="stylesheet" href="style.css" />
+  <script src="js/jquery-3.6.1.min.js"></script>
 </head>
 <body>
 
-<?php
-$err = "";
-if(isset($_POST['name']) && isset($_POST['email'])){
-  $name = $_POST['name'];
-  $email = $_POST['email'];
+  <h4 id="pera">This is going to be change</h4>
 
-  if(empty($name) && empty($email)){
-    $err = "This form is required";
-  }else{
-    echo "Thanks " . $name . " Your email address is " . $email;
-  }
-}
-
-
-?>
-
-<div class="section_wrapper">
-  <form action="index.php" method="POST">
-    <input type="text" name="name" placeholder="Name Please"><?php echo $err;?> <br/>
-    <input type="email" name="email" placeholder="Email Please"><?php echo $err;?><br/>
-    <input type="submit" name="submit">
-  </form>
-</div>
+  <button class="button1 btn btn-primary" onclick="myfun()">Click Me</button>
 
 
 
+
+
+
+<script src="app.js"></script>
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/jquery-3.6.1.min.js"></script>
+
   <!-- boostrap js -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/plugins.js"></script>
