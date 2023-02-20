@@ -23,7 +23,7 @@ if ($conn->connect_error) {
 
 //     echo $data['name'];
 // }
-
+// 
 // PHP Procedure method to show data from the server
 $sql = "SELECT * FROM test";
 $result = mysqli_query($conn, $sql);
