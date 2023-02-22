@@ -15,6 +15,41 @@ if ($conn->connect_error) {
     die("Error connecting to $hostname");
 }
 
+// PHP 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // PHP OOP to show data from the database
 // $sql = "SELECT * FROM test";
 // $result = $conn->query($sql);
@@ -25,11 +60,11 @@ if ($conn->connect_error) {
 // }
 // 
 // PHP Procedure method to show data from the server
-$sql = "SELECT * FROM test";
-$result = mysqli_query($conn, $sql);
+// $sql = "SELECT * FROM test";
+// $result = mysqli_query($conn, $sql);
 
-    if(mysqli_num_rows($result) > 0){
-        $data = mysqli_fetch_array($result);
-        echo $data['name'];
-        echo $data['id'];
-    }
+//     if(mysqli_num_rows($result) > 0){
+//         $data = mysqli_fetch_array($result);
+//         echo $data['name'];
+//         echo $data['id'];
+//     }

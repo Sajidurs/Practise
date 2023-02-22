@@ -28,10 +28,6 @@
 </head>
 <body>
 
-  <!-- <h4 id="pera">This is going to be change</h4>
-
-  <button class="button1 btn btn-primary">Click Me</button>
- -->
 
 
 
