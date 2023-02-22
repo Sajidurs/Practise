@@ -38,24 +38,42 @@ if ($conn->connect_error) {
 // echo "<pre>"; 
 
 
-$arrayName = array(
-        "location"  => "Meherpur Bangladesh",
-        "name"      => "Sajidur Rahman",
-        "number"    => "02544757",
-        "email"     => "hire@sajidur.pro"
-    );
-    print_r($arrayName);
+// $arrayName = array(
+//         "location"  => "Meherpur Bangladesh",
+//         "name"      => "Sajidur Rahman",
+//         "number"    => "02544757",
+//         "email"     => "hire@sajidur.pro"
+//     );
+//     print_r($arrayName);
 
-    $a=array("red","green");
-    print_r(array_pad($a,5,"blue"));
+//     $a=array("red","green");
+//     print_r(array_pad($a,5,"blue"));
+$cars = array(
+    array("Volvo", 22, 18),
+    array("BMW", 15, 13),
+    array("Saab", 5, 2),
+    array("Land Rover", 17, 15)
+);
 
+echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<br>";
 
-    // $age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43","Harry"=>"50");
-    // print_r(array_chunk($age,2,true));
+$amarcondition = array(
+    array("Bappi", "Single", "Age: 27"),
+    array("Angkon", "Raka Kaki", "Age: 23"),
+    array("Rockey", "Mst. Rockeyna Khatun", "Age: 25"),
+);
 
+// Creating a loop through the arrays
+for( $row = 0; $row < 3; $row++){
+    echo "<p><br>Row Number: $row</br></p>";
+    echo "<ul>";
 
-
-
+    // Creating another loop for the inner data
+    for ($col = 0; $col < 3; $col++){
+        echo "<li>". $amarcondition[$row][$col]."</li>";
+    }
+    echo "</ul>";
+}
 
 
 
@@ -100,4 +118,3 @@ $arrayName = array(
 //         echo $data['name'];
 //         echo $data['id'];
 //     }
-
