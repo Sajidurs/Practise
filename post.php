@@ -4,6 +4,8 @@
 
 // echo "This is $name and I am a $job.";
 
+use Dompdf\FontMetrics;
+
 $hostname = "localhost";
 $username = "root";
 $password = "";
@@ -21,8 +23,19 @@ if ($conn->connect_error) {
 // var_dump(is_finite($x));
 
 // PHP Array - Indexed array
-$arrayName = array ("Red", "Green", "Blue", "Alpha");
-echo ($arrayName['2']);
+// $arrayName = array ("Red", "Green", "Blue", "Alpha");
+// echo ($arrayName['2']);
+
+// Associative Array
+$arrayName = array(
+    "location"  => "Meherpur Bangladesh",
+    "name"      => "Sajidur Rahman",
+    "number"    => "02544757",
+    "email"     => "hire@sajidur.pro"
+);
+echo "<pre>"; 
+print_r(array_change_key_case($arrayName,CASE_UPPER));
+echo "<pre>"; 
 
 
 
