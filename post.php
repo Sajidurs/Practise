@@ -15,7 +15,11 @@ if ($conn->connect_error) {
     die("Error connecting to $hostname");
 }
 
-// PHP 
+// PHP Floating point Number
+$x = PHP_FLOAT_MAX;
+
+var_dump(is_finite($x));
+
 
 
 
@@ -68,3 +72,4 @@ if ($conn->connect_error) {
 //         echo $data['name'];
 //         echo $data['id'];
 //     }
+
