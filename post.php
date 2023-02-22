@@ -27,17 +27,31 @@ if ($conn->connect_error) {
 // echo ($arrayName['2']);
 
 // Associative Array
+// $arrayName = array(
+//     "location"  => "Meherpur Bangladesh",
+//     "name"      => "Sajidur Rahman",
+//     "number"    => "02544757",
+//     "email"     => "hire@sajidur.pro"
+// );
+// echo "<pre>"; 
+// print_r(array_change_key_case($arrayName,CASE_UPPER));
+// echo "<pre>"; 
+
+
 $arrayName = array(
-    "location"  => "Meherpur Bangladesh",
-    "name"      => "Sajidur Rahman",
-    "number"    => "02544757",
-    "email"     => "hire@sajidur.pro"
-);
-echo "<pre>"; 
-print_r(array_change_key_case($arrayName,CASE_UPPER));
-echo "<pre>"; 
+        "location"  => "Meherpur Bangladesh",
+        "name"      => "Sajidur Rahman",
+        "number"    => "02544757",
+        "email"     => "hire@sajidur.pro"
+    );
+    print_r($arrayName);
+
+    $a=array("red","green");
+    print_r(array_pad($a,5,"blue"));
 
 
+    // $age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43","Harry"=>"50");
+    // print_r(array_chunk($age,2,true));
 
 
 
