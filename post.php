@@ -16,9 +16,9 @@ if ($conn->connect_error) {
 }
 
 // PHP Floating point Number
-$x = PHP_FLOAT_MAX;
+// $x = PHP_FLOAT_MAX;
 
-var_dump(is_finite($x));
+// var_dump(is_finite($x));
 
 
 
