@@ -20,8 +20,9 @@ if ($conn->connect_error) {
 
 // var_dump(is_finite($x));
 
-
-
+// PHP Array - Indexed array
+$arrayName = array ("Red", "Green", "Blue", "Alpha");
+echo ($arrayName['2']);
 
 
 
