@@ -57,23 +57,34 @@ $cars = array(
 
 echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<br>";
 
-$amarcondition = array(
-    array("Bappi", "Single", "Age: 27"),
-    array("Angkon", "Raka Kaki", "Age: 23"),
-    array("Rockey", "Mst. Rockeyna Khatun", "Age: 25"),
+// $amarcondition = array(
+//     array("Bappi", "Single", "Age: 27"),
+//     array("Angkon", "Raka Kaki", "Age: 23"),
+//     array("Rockey", "Mst. Rockeyna Khatun", "Age: 25"),
+// );
+
+// // Creating a loop through the arrays
+// for( $row = 0; $row < 3; $row++){
+//     echo "<p><br>Row Number: $row</br></p>";
+//     echo "<ul>";
+
+//     // Creating another loop for the inner data
+//     for ($col = 0; $col < 3; $col++){
+//         echo "<li>". $amarcondition[$row][$col]."</li>";
+//     }
+//     echo "</ul>";
+// }
+
+$familly = array(
+    array("Bappi", "Nodi", "Mahirul", "Ferdouchi"),
+    array("Shakil", "Tuktuki", "Juli", "Papiya"),
+    array("Angkon", "Adib", "Amjad", "Sheheli"),
 );
 
-// Creating a loop through the arrays
-for( $row = 0; $row < 3; $row++){
-    echo "<p><br>Row Number: $row</br></p>";
-    echo "<ul>";
+for($row = 0; $row < 3; $row++){
 
-    // Creating another loop for the inner data
-    for ($col = 0; $col < 3; $col++){
-        echo "<li>". $amarcondition[$row][$col]."</li>";
-    }
-    echo "</ul>";
 }
+
 
 
 
