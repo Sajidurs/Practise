@@ -78,11 +78,18 @@ echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<
 $familly = array(
     array("Bappi", "Nodi", "Mahirul", "Ferdouchi"),
     array("Shakil", "Tuktuki", "Juli", "Papiya"),
-    array("Angkon", "Adib", "Amjad", "Sheheli"),
+    array("Angkon", "Adib", "Amjad", "Sheheli", "Nai"),
 );
 
 for($row = 0; $row < 3; $row++){
+    echo "<p>Row Number: $row</p>";
+    echo "<ul>";
 
+    for($col = 0; $col < 4; $col++){
+        echo "<li>" . $familly[$row][$col] . "</li>";
+    }
+
+    echo "</ul>";
 }
 
 
