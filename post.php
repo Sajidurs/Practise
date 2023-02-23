@@ -114,19 +114,18 @@ echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<
 // echo implode(', ', $colors) . ', ';
 
 
-$names = array('sajidur', 'bappi', 'angkon', 'shakil');
-
-sort($color); // Sort the array alphabetically
-
-foreach ($color as $key => $value) {
-    echo ($key+1) . ". " . $value . "<br>";
-}
-
 // $colors = array('green', 'yellow', 'blue', 'lightgreen');
 // foreach($colors as $color){
 //     echo "$color , ";
 // }
 
+// $names = array('sajidur', 'bappi', 'angkon', 'shakil');
+
+// sort($names); // Sort the array alphabetically
+
+// foreach ($names as $value) {
+//     echo "<li>" . $value . "<br></li>";
+// }
 
 
 
