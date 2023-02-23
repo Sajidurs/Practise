@@ -126,8 +126,16 @@ echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<
 // foreach ($names as $value) {
 //     echo "<li>" . $value . "<br></li>";
 // }
+$countryName = array(
+    "Italy"             => "Rome",
+    "Luxembourg"        => "Luxembourg"
+);
 
+asort($countryName);
 
+foreach($countryName as $countries => $catipal){
+    echo "<li>The capital of ". $countries . " is "  . $catipal."</li>";
+}
 
 
 
