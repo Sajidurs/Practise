@@ -75,25 +75,43 @@ echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<
 //     echo "</ul>";
 // }
 
-$familly = array(
-    array("Bappi", "Nodi", "Mahirul", "Ferdouchi"),
-    array("Shakil", "Tuktuki", "Juli", "Papiya"),
-    array("Angkon", "Adib", "Amjad", "Sheheli", "Nai"),
-);
+// $familly = array(
+//     array("Bappi", "Nodi", "Mahirul", "Ferdouchi"),
+//     array("Shakil", "Tuktuki", "Juli", "Papiya"),
+//     array("Angkon", "Adib", "Amjad", "Sheheli", "Nai"),
+// );
 
-for($row = 0; $row < 3; $row++){
-    echo "<p>Row Number: $row</p>";
-    echo "<ul>";
+// for($row = 0; $row < 3; $row++){
+//     echo "<p>Row Number: $row</p>";
+//     echo "<ul>";
 
-    for($col = 0; $col < 4; $col++){
-        echo "<li>" . $familly[$row][$col] . "</li>";
-    }
+//     for($col = 0; $col < 4; $col++){
+//         echo "<li>" . $familly[$row][$col] . "</li>";
+//     }
 
-    echo "</ul>";
+//     echo "</ul>";
+// }
+
+$color = array('white', 'green', 'red');
+foreach ($color as $c)
+{
+echo "$c, ";
 }
+sort($color);
+echo "<ul>";
+
+// Next Line
 
 
+// foreach ($color as $y)
+// {
+// echo "<li>$y</li>";
+// }
+// echo "</ul>";
 
+// $colors = array('white', 'green', 'red');
+
+// echo implode(', ', $colors) . ', ';
 
 
 
