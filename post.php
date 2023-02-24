@@ -143,6 +143,14 @@ echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<
 
 
 
+$json_str = '{"Title": "The Cuckoos Calling", "Author": "Robert Galbraith", "Detail": {"Publisher": "Little Brown"}}';
+// Decode JSON string to a PHP associative array
+$data = json_decode($json_str, true);
+
+
+
+
+
 
 
 
