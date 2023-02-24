@@ -137,7 +137,9 @@ echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<
 //     echo "<li>The capital of ". $countries . " is "  . $catipal."</li>";
 // }
 
-
+// $color = array(4 => 'white', 6 => 'green', 11=> 'red');
+// $show = reset($color);
+// echo $show;
 
 
 
