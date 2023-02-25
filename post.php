@@ -4,18 +4,18 @@
 
 // echo "This is $name and I am a $job.";
 
-use Dompdf\FontMetrics;
+// use Dompdf\FontMetrics;
 
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$dbname = "testtest";
+// $hostname = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "testtest";
 
-$conn = new mysqli($hostname, $username, $password, $dbname);
+// $conn = new mysqli($hostname, $username, $password, $dbname);
 
-if ($conn->connect_error) {
-    die("Error connecting to $hostname");
-}
+// if ($conn->connect_error) {
+//     die("Error connecting to $hostname");
+// }
 
 // PHP Floating point Number
 // $x = PHP_FLOAT_MAX;
@@ -48,14 +48,14 @@ if ($conn->connect_error) {
 
 //     $a=array("red","green");
 //     print_r(array_pad($a,5,"blue"));
-$cars = array(
-    array("Volvo", 22, 18),
-    array("BMW", 15, 13),
-    array("Saab", 5, 2),
-    array("Land Rover", 17, 15)
-);
+// $cars = array(
+//     array("Volvo", 22, 18),
+//     array("BMW", 15, 13),
+//     array("Saab", 5, 2),
+//     array("Land Rover", 17, 15)
+// );
 
-echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<br>";
+// echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<br>";
 
 // $amarcondition = array(
 //     array("Bappi", "Single", "Age: 27"),
@@ -142,44 +142,33 @@ echo $cars[0][0] . ": In stock: " . $cars[0][1] . ", sold: " . $cars[0][2] . ".<
 // echo $show;
 
 
+// $name = 1;
 
-$json_str = '{"Title": "The Cuckoos Calling", "Author": "Robert Galbraith", "Detail": {"Publisher": "Little Brown"}}';
-// Decode JSON string to a PHP associative array
-$data = json_decode($json_str, true);
+// switch ($name) {
+//     case 1 : case 2 : 
+//         echo "শনিবার";
+//         break;
 
+//     case 3:
+//         echo "সোমবার";
+//         break;
 
+//     case 4:
+//         echo "মঙ্গলবার";
+//         break;
 
+//     case 5:
+//         echo "বুধবার";
+//         break;
 
+//     case 6:
+//         echo "ব্রিশপতিবার";
+//         break;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// PHP OOP to show data from the database
-// $sql = "SELECT * FROM test";
-// $result = $conn->query($sql);
-// if ($result->num_rows > 0) {
-//     $data = $result->fetch_assoc();
-
-//     echo $data['name'];
+//     case 7:
+//         echo "শুক্রবার";
+//         break;
 // }
-// 
-// PHP Procedure method to show data from the server
-// $sql = "SELECT * FROM test";
-// $result = mysqli_query($conn, $sql);
 
-//     if(mysqli_num_rows($result) > 0){
-//         $data = mysqli_fetch_array($result);
-//         echo $data['name'];
-//         echo $data['id'];
-//     }
+
+
