@@ -170,5 +170,10 @@
 //         break;
 // }
 
+ 
+$result = 62;
+
+echo ($result >= 40) ? "Passed" : " Failed";
+
 
 
