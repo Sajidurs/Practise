@@ -192,6 +192,10 @@ print ("Value of b is " . $b);
 
 
 
-$name = isset($_POST['name']) ? $_POST['name'] : null;
-$email = isset($_POST['email']) ? $_POST['email'] : null;
-echo $name;
+$name = isset($_POST['name']) ? "echo 'The Name is: ' . $name;" : "Nothing found";
+$email = isset($_POST['email']) ? "echo 'The Name is: ' . $email;" : "Nothing found";
+
+echo $name ;
+echo $email ;
+
+

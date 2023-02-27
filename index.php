@@ -1,3 +1,10 @@
+<?php
+include('post.php');
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +37,11 @@
 
 
 
-
+<form action="index.php" method="POST">
+<input type="text" name="name">
+<input type="email" name="email">
+<input type="submit" name="submit" value="Send now">
+</form>
 
 
 <script src="app.js"></script>
