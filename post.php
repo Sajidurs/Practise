@@ -189,3 +189,9 @@ echo "<hr>";
 $a = 10;
 $b = $a > 15 ? 20 : 5;
 print ("Value of b is " . $b);
+
+
+
+$name = isset($_POST['name']) ? $_POST['name'] : null;
+$email = isset($_POST['email']) ? $_POST['email'] : null;
+echo $name;
