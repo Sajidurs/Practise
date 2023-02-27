@@ -172,8 +172,14 @@
 
  
 $result = 62;
+$exam = 100;
 
-echo ($result >= 40) ? "Passed" : " Failed";
+$theEnd = "The Status is: " . ($result >= 40 ? "Completed" : " Pending");
+echo $theEnd;
 
+$value = 1;
+$checked = true;
+$unchecked = false;
 
-
+$output = ($value = 1) ? "Checked" : "Unchecked";
+echo $output;
