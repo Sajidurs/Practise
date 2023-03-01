@@ -171,31 +171,31 @@
 // }
 
  
-$result = 62;
-$exam = 100;
+// $result = 62;
+// $exam = 100;
 
-$theEnd = "The Status is: " . ($result >= 40 ? "Completed" : " Pending");
-echo $theEnd;
+// $theEnd = "The Status is: " . ($result >= 40 ? "Completed" : " Pending");
+// echo $theEnd;
 
-$value = 1;
-$checked = true;
-$unchecked = false;
+// $value = 1;
+// $checked = true;
+// $unchecked = false;
 
-$output = ($value = 0) ? "Checked" : "Unchecked";
-echo $output;
+// $output = ($value = 0) ? "Checked" : "Unchecked";
+// echo $output;
 
-echo "<hr>";
+// echo "<hr>";
 
-$a = 10;
-$b = $a > 15 ? 20 : 5;
-print ("Value of b is " . $b);
+// $a = 10;
+// $b = $a > 15 ? 20 : 5;
+// print ("Value of b is " . $b);
 
 
 
-$name = isset($_POST['name']) ? "echo 'The Name is: ' . $name;" : "Nothing found";
-$email = isset($_POST['email']) ? "echo 'The Name is: ' . $email;" : "Nothing found";
+// $name = isset($_POST['name']) ? "echo 'The Name is: ' . $name;" : "Nothing found";
+// $email = isset($_POST['email']) ? "echo 'The Name is: ' . $email;" : "Nothing found";
 
-echo $name ;
-echo $email ;
+// echo $name ;
+// echo $email ;
 
 
