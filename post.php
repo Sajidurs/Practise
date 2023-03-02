@@ -198,4 +198,8 @@
 // echo $name ;
 // echo $email ;
 
+// Array
+$variable = "Variable";
+echo $variable;
+
 
