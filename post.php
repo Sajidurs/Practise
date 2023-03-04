@@ -202,12 +202,16 @@
 // $variable = "Variable";
 // echo $variable;
 
-$arrayIndexNum = array(
-    "One" => 10,
-    "Two" => 100,
-    "Three" => 200,
-    "Four" => 300,
-);
+// $arrayIndexNum = array(
+//     "One" => 10,
+//     "Two" => 100,
+//     "Three" => 200,
+//     "Four" => 300,
+// );
 
-echo $arrayIndexNum['2'];
+// echo $arrayIndexNum['2'];
+
+
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+echo "Peter is " . $age['Peter'] . " years old.";
 
