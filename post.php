@@ -215,3 +215,11 @@
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 echo "Peter is " . $age['Peter'] . " years old.";
 
+
+$money = array(
+    "Bappi" => "USD",
+    "Shakil" => "RP",
+    "Shamim" => "BDT",
+);
+
+echo "Bappi use money in " . $money['Bappi'] . " currency";
