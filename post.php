@@ -198,8 +198,16 @@
 // echo $name ;
 // echo $email ;
 
-// Array
-$variable = "Variable";
-echo $variable;
+// // Array
+// $variable = "Variable";
+// echo $variable;
 
+$arrayIndexNum = array(
+    "One" => 10,
+    "Two" => 100,
+    "Three" => 200,
+    "Four" => 300,
+);
+
+echo $arrayIndexNum['2'];
 
